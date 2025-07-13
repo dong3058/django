@@ -1,0 +1,23 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/sidebar.css' %}">
+{% block content %}
+    <div class="sidebar">
+
+        <div class="normal-bar">
+            <div class="burger-bar"></div>
+            <div class="burger-bar"></div>
+            <div class="burger-bar"></div>
+        </div>
+
+        <div class="hidden-bar">
+            <a href="/">who are we?</a>
+            <a href="/">product</a>
+            <a href="/">maps</a>
+            <a href="/">notification</a>
+        </div>
+    </div>
+
+
+    <script src="{% static 'js/sidebar.js' %}"></script>
+
+{% endblock %}

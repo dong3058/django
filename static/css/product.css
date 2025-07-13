@@ -1,0 +1,41 @@
+
+.product-selector{
+    display:flex;
+    margin-right: auto;
+    height:100%;
+    width:100px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.product-description{
+    margin-left:50px;
+    margin-right:10px;
+    width:500px;
+    min-height: 100px;
+    background-color: white;
+    font-size:15px;
+    border-radius: 10px;
+    border-color: gray;
+
+}
+
+/* product-div에 대한 기본 스타일 (예시) */
+.product-div {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #eee;
+    border-radius:10px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease; /* 부드러운 전환 효과 */
+    text-align: center;
+}
+
+/* 활성화된 버튼에 적용될 스타일 */
+.product-div.active {
+    font-weight: bold; /* 글자 굵게 */
+    text-decoration: underline; /* 밑줄 유지 (선택 사항) */
+    border-color: #0056b3;
+}

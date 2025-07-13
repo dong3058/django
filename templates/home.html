@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% block content %}
+<div class="home-container">
+
+        <div class="product-ex">
+            <a href="/" id="link_btn">images/bg1.jpeg</a>
+        </div>
+        <div class="button-container">
+            <button class="image-button active" data-image="{% static 'images/bg1.jpeg' %}">버튼 1</button>
+            <button class="image-button" data-image="{% static 'images/bg2.jpeg' %}">버튼 2</button>
+            <button class="image-button" data-image="{% static 'images/bg3.jpeg' %}">버튼 3</button>
+        </div>
+</div>
+    <script src="{% static 'js/home.js' %}"></script>
+
+{% endblock %}
