@@ -13,16 +13,16 @@ document.addEventListener('DOMContentLoaded',()=>{
     }
     buttons.forEach(button => {
         button.addEventListener('click', function() {
-            // 모든 버튼에서 'active' 클래스 제거
+
             buttons.forEach(btn => btn.classList.remove("active"));
 
-            // 클릭된 버튼에 'active' 클래스 추가하여 하이라이트
+
             this.classList.add('active')
 
-            // 클릭된 버튼의 data-image 값 가져오기
+
             const imageUrl = this.dataset.image;
             product_ex[0].textContent=this.dataset.image.toString()
-            // main-content의 배경 이미지 변경
+
             if (imageUrl) {
                 mainContent.style.backgroundImage = `url('${imageUrl}')`;
             }

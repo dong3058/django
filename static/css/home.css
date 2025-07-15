@@ -30,20 +30,20 @@
     background-color: #e0e0e0;
 }
 
-/* 하이라이트 (활성화) 버튼 스타일 */
+
 .image-button.active {
-    background-color: #007bff; /* 활성화 시 배경색 */
-    color: white; /* 활성화 시 글자색 */
+    background-color: #007bff;
+    color: white; /
     border-color: #007bff;
-    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* 그림자 효과 */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
 }
 
 .content-display {
     width: 100%;
-    max-width: 800px; /* 내용 영역 최대 너비 */
-    background-color: rgba(255, 255, 255, 0.8); /* 내용 배경을 반투명 흰색으로 */
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 8px;
     text-align: left;
-    min-height: 200px; /* 내용 영역 최소 높이 */
+    min-height: 200px;
 }

@@ -1,12 +1,8 @@
 
-/* 푸터 스타일 */
 .site-footer {
     width: 100%;
-    /* 선형 그라데이션: 위에서 아래로 (top to bottom), 검은색에서 투명으로 */
-    /* 시작 색상: 완전히 검은색 (rgba(0,0,0,1)) */
-    /* 끝 색상: 완전히 투명 (rgba(0,0,0,0)) */
     background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
-    color: white; /* 푸터 내부 텍스트 색상 */
+    color: white;
     padding: 20px 0;
     text-align: center;
 

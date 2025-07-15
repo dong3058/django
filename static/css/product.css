@@ -21,7 +21,7 @@
 
 }
 
-/* product-div에 대한 기본 스타일 (예시) */
+
 .product-div {
     padding: 10px;
     margin: 5px;
@@ -29,13 +29,12 @@
     border: 1px solid #eee;
     border-radius:10px;
     background-color: #f9f9f9;
-    transition: all 0.3s ease; /* 부드러운 전환 효과 */
+    transition: all 0.3s ease;
     text-align: center;
 }
 
-/* 활성화된 버튼에 적용될 스타일 */
 .product-div.active {
-    font-weight: bold; /* 글자 굵게 */
-    text-decoration: underline; /* 밑줄 유지 (선택 사항) */
+    font-weight: bold;
+    text-decoration: underline;
     border-color: #0056b3;
 }

@@ -2,11 +2,11 @@
 <html lang="ko">
 <head>
 
-    {% load static %} {# static 파일 로드를 위해 필요 #}
+    {% load static %}
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" href="{% static 'css/footer.css' %}">
     <link rel="stylesheet" href="{% static 'css/header.css' %}">
-    {# 다른 CSS나 JS 파일도 여기에 추가 #}
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}내 사이트{% endblock %}</title>
@@ -17,11 +17,11 @@
     <main id="main-content">
         {% include 'sidebar.html' %}
         {% block content %}
-        <!-- 각 페이지의 고유한 내용이 여기에 들어갑니다. -->
+
         {% endblock %}
     </main>
 
-    <!-- 푸터 포함 -->
+
     {% include 'footer.html' %}
 
 </body>
