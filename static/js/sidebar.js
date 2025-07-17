@@ -12,3 +12,8 @@ document.addEventListener('DOMContentLoaded',()=>{
             hidden_bar.style.display="none";
     })
 })
+
+/*
+*
+*
+* */
