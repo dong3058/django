@@ -1,0 +1,37 @@
+.notifycontainer {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.notifyheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.file-download {
+    font-size: 0.9em;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.file-download:hover {
+    background-color: #0056b3;
+}
+.meta-info {
+    font-size: 0.85em;
+    color: #666;
+    margin-bottom: 15px;
+}
+.notifycontent {
+    white-space: pre-wrap;
+}

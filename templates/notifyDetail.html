@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'css/notifyDetail.css' %}">
+
+{% block content %}
+<div class="notifycontainer">
+  <div class="notifyheader">
+    <h1>{{ title }}</h1>
+      {% if fileExist %}
+    <a href="{{downUrl}}" class="file-download" download>
+      파일 다운로드
+    </a>
+    {% endif %}
+  </div>
+  <div class="meta-info">
+    작성일자: {{ createDate|date:"Y년 m월 d일 H시 i분" }}
+  </div>
+  <div class="notifycontent">
+    <p>{{ content|linebreaksbr }}</p>
+  </div>
+  <p><a href="/">목록으로 돌아가기</a></p>
+</div>
+{% endblock %}
