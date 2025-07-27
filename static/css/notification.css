@@ -1,3 +1,7 @@
+#data-container{
+    width:300px;
+}
+
 .data-item {
     border: 1px solid #eee;
     padding: 10px;

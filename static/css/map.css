@@ -1,0 +1,74 @@
+.map-section-wrapper {
+    width: 100%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    box-sizing: border-box;
+}
+
+
+.map-header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.map-header h2 {
+    font-size: 2.2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.map-header p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.5;
+}
+.map-container {
+    width: 100%;
+    padding-bottom: 75%;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.address-info {
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 25px;
+    line-height: 1.8;
+}
+
+.address-info h3 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.address-info p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.address-info p strong {
+    color: #2c3e50;
+}

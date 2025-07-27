@@ -23,5 +23,6 @@ urlpatterns = [
     path("",include("home.urls")),
     path("map/",include("map.urls")),
     path("notification/",include("notification.urls")),
-    path("pages/", include("pages.urls"))
+    path("pages/", include("pages.urls")),
+    path("intro/", include("intro.urls"))
 ]

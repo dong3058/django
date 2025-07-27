@@ -1,6 +1,6 @@
 {% load static %}
 <link rel="stylesheet" href="{% static 'css/sidebar.css' %}">
-{% block content %}
+
     <div class="sidebar">
 
         <div class="normal-bar">
@@ -10,14 +10,11 @@
         </div>
 
         <div class="hidden-bar">
-            <a href="/">who are we?</a>
-            <a href="/">product</a>
-            <a href="/">maps</a>
-            <a href="/">notification</a>
+            <a href="/intro">who are we?</a>
+            <a href="/product">product</a>
+            <a href="/map">maps</a>
+            <a href="/notification">notification</a>
         </div>
     </div>
 
-
-    <script src="{% static 'js/sidebar.js' %}"></script>
-
-{% endblock %}
+<script src="{% static 'js/sidebar.js' %}"></script>

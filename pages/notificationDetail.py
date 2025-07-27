@@ -36,7 +36,7 @@ def getFile(request,file_id):
     return response
 
 def getPageDate(request,page_number):
-    limit = 10
+    limit = 5
     base_queryset = (NotificationFile.objects
                      .values('id', 'title','pub_date')
                      .order_by("pub_date"))

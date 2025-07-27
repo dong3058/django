@@ -4,14 +4,15 @@
 {% block content %}
 <div class="product-container">
 
-        <div class="product-selector">
-          <div class="product-div" data-image="{% static 'images/bg1.jpeg' %}" >제품1</div>
-          <div class="product-div" data-image="{% static 'images/bg2.jpeg' %}">제품2</div>
-          <div class="product-div" data-image="{% static 'images/bg3.jpeg' %}">제품3</div>
-        </div>
 
         <div class="product-description">
 
+        </div>
+
+        <div class="product-selector">
+          <span class="product-div" data-image="{% static 'images/bg1.jpeg' %}" >제품1</span>
+          <span class="product-div" data-image="{% static 'images/bg2.jpeg' %}">제품2</span>
+          <span class="product-div" data-image="{% static 'images/bg3.jpeg' %}">제품3</span>
         </div>
 </div>
     <script src="{% static 'js/product.js' %}"></script>

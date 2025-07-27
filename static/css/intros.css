@@ -1,0 +1,70 @@
+.company-intro-section {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.tab-headers {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab-header-item {
+    flex: 1;
+    padding: 15px 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    color: #555;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+    border-right: 1px solid #eee;
+}
+
+.tab-header-item:last-child {
+    border-right: none;
+}
+
+.tab-header-item:hover {
+    background-color: #eaeaea;
+}
+
+.tab-header-item.active {
+    background-color: #007bff;
+    color: white;
+    border-bottom: 3px solid #007bff;
+    margin-bottom: -1px;
+}
+
+
+.tab-content {
+    padding: 25px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+h2 {
+    color: #007bff;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
